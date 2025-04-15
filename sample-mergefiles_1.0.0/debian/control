@@ -1,0 +1,12 @@
+Source: sample-mergefiles
+Maintainer: SIDIL <sidil@uniaolisboa-cgtp.pt>
+Build-Depends:
+    debhelper-compat (=13),
+Standards-Version: 4.5.0
+
+Package: sample-mergefiles
+Architecture: all
+Depends:
+    bash,
+Description: Sample deb package that simply puts some files in some
+ places, without any other build logic.
