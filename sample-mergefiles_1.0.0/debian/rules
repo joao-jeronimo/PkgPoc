@@ -2,7 +2,7 @@
 export DH_VERBOSE=1
 
 %:
-	dh $@ --buildsystem=manual
+	dh $@ --buildsystem=none
 
 override_dh_auto_build:
 	dh_auto_build
