@@ -1,5 +1,0 @@
-sample-mergefiles (1.0.0-1) unstable; urgency=low
-
-  * Programa exemplo a instalar em /opt/samplemergefiles-shellscripts/sample-printthings.
-
- -- João Jerónimo <joao@uniaolisboa-cgtp.pt>  Tue, 15 Apr 2025 14:02:00 +0100
