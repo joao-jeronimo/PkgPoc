@@ -1,6 +1,7 @@
 # Debian-related files:
 *.dsc
 *.gz
+*.xz
 *.deb
 *.substvars
 *.buildinfo
