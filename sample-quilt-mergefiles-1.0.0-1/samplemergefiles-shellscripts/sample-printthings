@@ -1,3 +1,0 @@
-#!/bin/bash
-
-printf "Things that there are: %s %s %s\n" "thing1" "thing2" "thing3"
