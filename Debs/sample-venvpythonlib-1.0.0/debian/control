@@ -5,6 +5,7 @@ Maintainer: SIDIL <sidil@uniaolisboa-cgtp.pt>
 Build-Depends:
     python3-all,
     debhelper-compat (=13),
+    dh-python,
 Standards-Version: 4.5.0
 
 Package: sample-venvpythonlib
