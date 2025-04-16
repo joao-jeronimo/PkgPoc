@@ -1,0 +1,5 @@
+sample-pythonlib (1.0.0) unstable; urgency=low
+
+  * Lib exemplo em Python, a instalar no sistema principal.
+
+ -- João Jerónimo <joao@uniaolisboa-cgtp.pt>  Wed, 16 Apr 2025 09:38:00 +0100
