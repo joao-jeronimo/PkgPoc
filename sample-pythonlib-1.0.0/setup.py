@@ -16,4 +16,7 @@ setup(
     python_requires='>=3.10',
     extras_require={},
     tests_require=[],
+    packages=[
+        'samplepythonlibmodules',
+        ],
     )
