@@ -6,6 +6,7 @@
 *.substvars
 *.buildinfo
 *.changes
+*.pybuild
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
