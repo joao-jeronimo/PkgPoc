@@ -25,7 +25,7 @@ setup(
     ext_modules=[
         Extension(
             name="my_functions.so",
-            sources=["my_functions.c"],
+            sources=["samplepythonlibmodules/my_functions.c"],
             ),
         ]
     )
