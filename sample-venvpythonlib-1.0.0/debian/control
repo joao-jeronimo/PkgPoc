@@ -1,0 +1,16 @@
+Source: sample-venvpythonlib
+Section: devel
+Priority: optional
+Maintainer: SIDIL <sidil@uniaolisboa-cgtp.pt>
+Build-Depends:
+    python3-all,
+    debhelper-compat (=13),
+Standards-Version: 4.5.0
+
+Package: sample-venvpythonlib
+Section: devel
+Priority: optional
+Architecture: all
+Depends:
+    bash,
+Description: Sample deb package that installs python code in a venv.
