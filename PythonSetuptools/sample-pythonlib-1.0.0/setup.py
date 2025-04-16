@@ -19,4 +19,7 @@ setup(
     packages=[
         'samplepythonlibmodules',
         ],
+    scripts=[
+        'samplepythonprogram.py',
+        ],
     )
