@@ -4,6 +4,6 @@ foreign functions written in C.
 To install:
     ./setup.py install
 To smoke-test:
-    pushd .. ; python3 -c "import samplepythonlibmodules" ; samplepythonprogram.py thongs ; popd
+    pushd .. ; python3 -c "import samplepythonlibmodules" ; samplepythonprogram.py thongs ; samplepythonprogram.py squaredoubles8.1 ; samplepythonprogram.py square7 ; popd
 To uninstall:
     pip uninstall sample-pythonforeignlib
