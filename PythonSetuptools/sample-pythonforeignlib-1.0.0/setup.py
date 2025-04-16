@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-from setuptools import find_packages, setup
+from setuptools import find_packages, Extension, setup
 from os.path import join, dirname
 
 setup(
@@ -22,4 +22,10 @@ setup(
     scripts=[
         'samplepythonprogram.py',
         ],
+    ext_modules=[
+        Extension(
+            name="my_functions.so",
+            sources=["my_functions.c"],
+            ),
+        ]
     )
