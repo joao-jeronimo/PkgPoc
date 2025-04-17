@@ -1,8 +1,10 @@
 #!/usr/bin/make -f
 export DH_VERBOSE=1
+export PATH=/opt/UltimateVenv/bin/:/usr/bin/
+export PYBUILD_OPTION_INTERPRETER="/opt/UltimateVenv/bin/python3"
 
 %:
-	dh $@ --buildsystem=pybuild --interpreter=/opt/thizizavenv/bin/python3.11
+	dh $@ --buildsystem=pybuild
 
 override_dh_auto_build:
 	dh_auto_build

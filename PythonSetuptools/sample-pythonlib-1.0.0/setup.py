@@ -1,10 +1,10 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 from setuptools import find_packages, setup
 from os.path import join, dirname
 
 setup(
-    name='sample-venvpythonlib',
+    name='sample-pythonlib',
     version="1.0.0",
     description="Biblioteca instalável exemplo",
     author="SIDIL",
@@ -18,5 +18,8 @@ setup(
     tests_require=[],
     packages=[
         'samplepythonlibmodules',
+        ],
+    scripts=[
+        'samplepythonprogram.py',
         ],
     )
