@@ -1,7 +1,5 @@
 #!/usr/bin/make -f
 export DH_VERBOSE=1
-export PATH=/opt/UltimateVenv/bin/:/usr/bin/
-export PYBUILD_OPTION_INTERPRETER="/opt/UltimateVenv/bin/python3"
 
 %:
 	dh $@ --buildsystem=pybuild
@@ -9,7 +7,7 @@ export PYBUILD_OPTION_INTERPRETER="/opt/UltimateVenv/bin/python3"
 override_dh_auto_build:
 	dh_auto_build
 override_dh_auto_install:
-	dh_auto_install
+	/opt/thizizavenv/bin/python3.11 setup.py install --root /home/username/GITs/DebPoc-git/Debs/sample-venvpythonlib-1.0.0/debian/sample-venvpythonlib
 override_dh_auto_clean:
 	dh_auto_clean
 override_dh_auto_test:
